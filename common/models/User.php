@@ -3,11 +3,11 @@ namespace common\models;
 
 use Yii;
 use yii\base\NotSupportedException;
+use yii\base\Security;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\db\Expression;
 use yii\web\IdentityInterface;
-use yii\base\Security;
 
 
 /**
